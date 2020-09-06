@@ -1,9 +1,8 @@
 /**
  * 闭包
- * @param option 
  */
 function closure() {
-    let static = null
+    let static = ''
     return function() {
         return static
     }
